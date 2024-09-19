@@ -41,18 +41,18 @@ In addition to the above, authorized users should be able to write a review for 
 3. Filling the form on the review page and submitting it should add the review.
 
 ```json
-        {
-            "user_id": 1, => from Django
-            "name": "Berkly Shepley", => from Django
-            "dealership": 15, => from the form
-            "review": "Total grid-enabled service-desk", => form textbox
-            "time": "", => current time
-            "purchase": true, => form checkbox
-            "purchase_date": "07/11/2020", => form calendar (bootstrap)
-            "car_make": "Audi", => from django dropdown
-            "car_model": "A6", => from django dropdown
-            "car_year": 2010 => form django dropdown
-        }
+{
+    "user_id": 1, => from Django
+    "name": "Berkly Shepley", => from Django
+    "dealership": 15, => from the form
+    "review": "Total grid-enabled service-desk", => form textbox
+    "time": "", => current time
+    "purchase": true, => form checkbox
+    "purchase_date": "07/11/2020", => form calendar (bootstrap)
+    "car_make": "Audi", => from django dropdown
+    "car_model": "A6", => from django dropdown
+    "car_year": 2010 => form django dropdown
+}
 ```
 
 4. On submission, the user should be taken back to the dealership detail page with the submitted review featured at the top of the reviews list, sorted on time.
@@ -81,7 +81,7 @@ In addition to the above, authorized users should be able to write a review for 
 4. Sentiment Analyzer:
    - Deploy and integrate the sentiment analyzer as a backend service.
   
-     ![Architecture](https://github.com/user-attachments/assets/58c88812-2b7d-4181-b7a2-ef66c549baa7)
+![Architecture](https://github.com/user-attachments/assets/58c88812-2b7d-4181-b7a2-ef66c549baa7)
 
 ### Detailed Services
 The user interacts with the "Dealerships Website", a Django website, through a web browser.
